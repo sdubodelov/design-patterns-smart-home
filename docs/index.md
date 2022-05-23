@@ -1,12 +1,44 @@
-## Welcome to GitHub Pages
+## Design Patterns demonstration on Smart Home application
 
-You can use the [editor on GitHub](https://github.com/sdubodelov/design-patterns-smart-home/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+### What is design patterns?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Design patterns are typical solutions to common problems
+in software design. Each pattern is like a blueprint
+that you can customize to solve a particular
+design problem in your code.
 
-### Markdown
+You can’t just find a pattern and copy it into your program, the way you can with off-the-shelf functions or libraries. The pattern is not a specific piece of code, but a general concept for solving a particular problem. You can follow the pattern details and implement a solution that suits the realities of your own program.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+### Benefits of patterns
+
+Patterns are a toolkit of solutions to common
+problems in software design. They define
+a common language that helps your team
+communicate more efficiently.
+
+1. Even if you never encounter these problems, knowing patterns is still useful because it teaches you how to solve all sorts of problems using principles of object-oriented design.
+2. Design patterns define a common language that you and your teammates can use to communicate more efficiently. You can say, “Oh, just use a Singleton for that,” and everyone will understand the idea behind your suggestion. No need to explain what a singleton is if you know the pattern and its name.
+
+### Classification
+The most basic and low-level patterns are often called idioms. They usually apply only to a single programming language.
+
+The most universal and high-level patterns are architectural patterns. Developers can implement these patterns in virtually any language. Unlike other patterns, they can be used to design the architecture of an entire application.
+
+In addition, all patterns can be categorized by their intent, or purpose. This book covers three main groups of patterns:
+ - **[Creational patterns](creational-patterns.md)** provide object creation mechanisms that increase flexibility and reuse of existing code.
+ - **[Structural patterns](structural-patterns.md)** explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient.
+ - **[Behavioral patterns](behavioral-patterns.md)** take care of effective communication and the assignment of responsibilities between objects.
+
+#### Good practice:
+- Start with the most simple design patterns,
+then you can refactor code if you will understand that you need more complex approach.
+### ----------------------------------------------
+
+### Criticism of patterns
+- **Inefficient solutions**: Patterns try to systematize approaches that are already widely used. This unification is viewed by many as a dogma and they implement patterns “to the point”, without adapting them to the context of their project.
+- **Unjustified use**: This is the problem that haunts many novices who have just familiarized themselves with patterns. Having learned about patterns, they try to apply them everywhere, even in situations where simpler code would do just fine.
+
 
 ```markdown
 Syntax highlighted code block
@@ -25,13 +57,3 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sdubodelov/design-patterns-smart-home/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
