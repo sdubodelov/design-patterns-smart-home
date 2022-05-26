@@ -89,12 +89,6 @@ public class HomeController {
 
         public HomeControllerBuilder(MessageObserver messageObserver) {
             this.messageObserver = messageObserver;
-
-            alarmSystem.addObserver(messageObserver);
-            coffeeMaker.addObserver(messageObserver);
-            frontDoor.addObserver(messageObserver);
-            heatingSystem.addObserver(messageObserver);
-            light.addObserver(messageObserver);
         }
 
         public HomeControllerBuilder setCoffeeMaker(CoffeeMaker coffeeMaker) {
@@ -123,6 +117,11 @@ public class HomeController {
         }
 
         public HomeController build() {
+            alarmSystem.addObserver(messageObserver);
+            coffeeMaker.addObserver(messageObserver);
+            frontDoor.addObserver(messageObserver);
+            heatingSystem.addObserver(messageObserver);
+            light.addObserver(messageObserver);
             return new HomeController(this);
         }
     }
